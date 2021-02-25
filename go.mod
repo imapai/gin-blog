@@ -1,4 +1,4 @@
-module gin-blog
+module github.com/imapai/gin-blog
 
 go 1.15
 
@@ -20,4 +20,12 @@ require (
 	google.golang.org/protobuf v1.25.0 // indirect
 	gopkg.in/ini.v1 v1.62.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
+)
+
+replace (
+	github.com/imapai/gin-blog/pkg/setting => ./gin-blog/pkg/setting
+    github.com/imapai/gin-blog/conf    	  => ./gin-blog/pkg/conf
+    github.com/imapai/gin-blog/middleware  => ./gin-blog/middleware
+    github.com/imapai/gin-blog/models 	  => ./gin-blog/models
+    github.com/imapai/gin-blog/routers 	  => ./gin-blog/routers
 )

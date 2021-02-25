@@ -3,7 +3,7 @@ package routers
 import (
 	"github.com/gin-gonic/gin"
 
-	"gin-blog/pkg/setting"
+	"github.com/imapai/gin-blog/pkg/setting"
 )
 
 func InitRouter() *gin.Engine {

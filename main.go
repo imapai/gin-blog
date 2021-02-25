@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"gin-blog/routers"
+	"github.com/imapai/gin-blog/routers"
 	"net/http"
 
-	"gin-blog/pkg/setting"
+	"github.com/imapai/gin-blog/pkg/setting"
 )
 
 func main() {
