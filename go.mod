@@ -24,7 +24,7 @@ require (
 
 replace (
 	github.com/imapai/gin-blog/pkg/setting => ./gin-blog/pkg/setting
-    github.com/imapai/gin-blog/conf    	  => ./gin-blog/pkg/conf
+    github.com/imapai/gin-blog/conf    	  => ./gin-blog/conf
     github.com/imapai/gin-blog/middleware  => ./gin-blog/middleware
     github.com/imapai/gin-blog/models 	  => ./gin-blog/models
     github.com/imapai/gin-blog/routers 	  => ./gin-blog/routers
